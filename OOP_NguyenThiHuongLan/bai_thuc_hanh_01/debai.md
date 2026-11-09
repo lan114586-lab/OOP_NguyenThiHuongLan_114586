@@ -9,7 +9,7 @@ nguyên lý OOP. Hệ thống cho phép:
 Yêu cầu cốt lõi: Xây dựng các lớp đối tượng (ParkingLot, Vehicle, SystemInterface)
 và xử lý các thao tác thêm, xóa, hiển thị thông tin một cách có tổ chức, đúng đắn về mặt
 thiết kế OOP.
-I. MỤC TIÊU & YÊU CẦU KỸ THUẬT
+1. MỤC TIÊU & YÊU CẦU KỸ THUẬT
 • Chủ đề: Đóng gói (Encapsulation), Thiết kế Lớp (Class), Biến đơn và Luồng điều
 khiển cơ bản.
 • Mục tiêu: Thiết kế ứng dụng console hướng đối tượng quản lý bãi đỗ xe cho một công
@@ -23,7 +23,9 @@ Mảng tĩnh (C-style array), Mảng C++ (std::array), Mảng động/Vector (st
 hay Con trỏ (pointers / new / delete).
 3. LƯU TRỮ: Quản lý số lượng đối tượng cố định thông qua các biến đối tượng
 đơn lẻ và biến cờ trạng thái (boolean flags).
-II. CẤU TRÚC VÀ THIẾT KẾ CÁC LỚP (CLASS SPECIFICATIONS)
+1
+2. CẤU TRÚC VÀ THIẾT KẾ CÁC LỚP (CLASS
+SPECIFICATIONS)
 Chương trình gồm 3 lớp chính:
 2.1 Lớp 1: Vehicle (Đại diện cho một phương tiện đỗ)
 • Thuộc tính (private):
@@ -69,7 +71,8 @@ Quản lý tối đa 3 bãi đỗ xe đơn lẻ.
 • Phương thức (public):
 – Lớp duy nhất chứa hàm main() và xử lý nhập/xuất Console (std::cin, std::cout).
 – void runMenu(): Hiển thị menu và điều phối các chức năng chương trình.
-III. QUY TẮC TÍNH PHÍ ĐỖ XE (PARKING FEE RULES)
+3. QUY TẮC TÍNH PHÍ ĐỖ XE (PARKING FEE
+RULES)
 Phí đỗ xe dựa trên Loại xe, Thời gian vào bãi (entryTime) và Thời lượng đỗ
 (parkingDuration):
 1. Biểu phí cơ bản theo giờ:
@@ -89,7 +92,8 @@ chuẩn.
 3
 – Giảm giá 10% (-10%) cho đơn giá theo giờ, bất kể vào giờ cao điểm hay thấp
 điểm.
-IV. YÊU CẦU CHỨC NĂNG MENU (MAIN MENU REQUIREMENTS)
+4. YÊU CẦU CHỨC NĂNG MENU (MAIN MENU
+REQUIREMENTS)
 Chương trình hiển thị menu lặp lại liên tục cho đến khi người dùng chọn thoát:
 1. Tạo Bãi đỗ xe mới: Nhập parkID và size (’S’, ’M’, ’L’). Tối đa 3 bãi. Kiểm tra
 trùng lặp ID hoặc vượt quá sức chứa.
